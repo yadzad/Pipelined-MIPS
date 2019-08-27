@@ -1,0 +1,115 @@
+E:/code/verilog/pipeline_mips/ctrl_encode_def.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/ctrl_encode_def.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} E:/code/verilog/pipeline_mips/bus_def.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/bus_def.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} E:/code/verilog/pipeline_mips/instruction_def.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/instruction_def.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} E:/code/verilog/pipeline_mips/ID_EX.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/ID_EX.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} E:/code/verilog/pipeline_mips/Alu.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/Alu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}} E:/code/verilog/pipeline_mips/PcUnit.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/PcUnit.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PcUnit
+
+Top level modules:
+	PcUnit
+
+} {} {}} E:/code/verilog/pipeline_mips/IF_ID.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/IF_ID.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} E:/code/verilog/pipeline_mips/EX_MEM.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/EX_MEM.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} E:/code/verilog/pipeline_mips/EX.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/EX.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module EX
+
+Top level modules:
+	EX
+
+} {} {}} E:/code/verilog/pipeline_mips/Pipeline_Mips.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/Pipeline_Mips.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Pipeline_Mips
+
+Top level modules:
+	Pipeline_Mips
+
+} {} {}} E:/code/verilog/pipeline_mips/RegFile.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/RegFile.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} E:/code/verilog/pipeline_mips/MEM.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/MEM.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MEM
+
+Top level modules:
+	MEM
+
+} {} {}} E:/code/verilog/pipeline_mips/IMem.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/IMem.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module IMem
+
+Top level modules:
+	IMem
+
+} {} {}} E:/code/verilog/pipeline_mips/DMem.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/DMem.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module DMem
+
+Top level modules:
+	DMem
+
+} {} {}} E:/code/verilog/pipeline_mips/clk_div.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/clk_div.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module clk_div
+
+Top level modules:
+	clk_div
+
+} {} {}} E:/code/verilog/pipeline_mips/Ctrl.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/Ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Ctrl
+
+Top level modules:
+	Ctrl
+
+} {} {}} E:/code/verilog/pipeline_mips/Extender.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/Extender.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Extender
+
+Top level modules:
+	Extender
+
+} {} {}} E:/code/verilog/pipeline_mips/MEM_WB.v {1 {vlog -work work -vopt E:/code/verilog/pipeline_mips/MEM_WB.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}}

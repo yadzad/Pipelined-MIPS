@@ -1,0 +1,39 @@
+PcUnit
+output,[`Word_Bus] PC,
+output,IF_ID_Flush,
+input,PcReSet,
+input,Change_PC_en,
+input,Stall,
+input,Clk,
+input,[`Word_Bus] PC_New,
+
+IMem
+input,[`IMem_Addr_Bus] ImAdress,当前指令的地址
+output,[`Word_Bus]  OpCode,输出的32位指令
+
+Extender
+input,[15:0] Imm16,  输入: 来自指令低16位的立即数
+input,[1:0]  EXTOp,  输入: 扩展器控制信号
+output,[31:0] Imm32  输出: 扩展得到的32位立即数
+
+ALU
+input,[`Word_Bus] DataIn1,输入: ALU的第一个输入
+input,[`Word_Bus] DataIn2,输入: ALU的第二个输入
+input,[4:0] AluCtrl,输入: ALU的控制信号
+output,[`Word_Bus] AluResult,输出: ALU运算结果
+output,Zero输出: Zero=1表明ALU运算结果全0
+
+Ctrl
+input,[5:0]OpCode,输入: 指令的6位操作码
+input,[5:0]funct,输入: 指令的6位功能码
+output,jump,输出: 跳转使能信号
+output,RegDst,  输出: 写入寄存器选择(Rt或Rd)
+output,Branch,输出: 分支使能信号
+output,MemR,输出: 内存读信号,lw指令有效
+output,Mem2R,输出: 选择将从内存读出的数据作为写回寄存器的数据,lw指令有效
+output,MemW,输出: 内存写信号,sw指令有效
+output,RegW,输出: 写回寄存器信号,所有需要向寄存器写回结果的指令均有效
+output,[`AluSrc_Bus] AluSrc1,输出: ALU的第一个输入的选择信号
+output,[`AluSrc_Bus] AluSrc2,输出: ALU的第二个输入的选择信号
+output,[1:0] ExtOp,输出: ID级的扩展器的控制信号
+output,[4:0] Aluctrl,输出: ALU的控制信号
